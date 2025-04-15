@@ -1,18 +1,19 @@
-# dependencies
+# Node modules & build
 node_modules/
-venv/
-.env
-
-# builds
-.next/
 dist/
 build/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
 
-# system files
+# OS
 .DS_Store
-*.log
 
-# others
-*.zip
+# Logs
+*.log
