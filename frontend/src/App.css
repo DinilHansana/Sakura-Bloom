@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-size: cover;
+    background-position: center;
+    transition: background 0.3s ease;
+  }
+  
+  body.light {
+    background-image: url('/assets/sakura_day.jpg');
+    color: #333;
+  }
+  
+  body.dark {
+    background-image: url('/assets/sakura_night.jpg');
+    color: #eee;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  button {
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #e091b0;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #c8779d;
+  }
+  
